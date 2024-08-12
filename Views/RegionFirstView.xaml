@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="PrismTest2.Views.RegionFirstView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             Height="250" Width="400">
+    <Grid>
+        <Border Background="Red"/>
+        <TextBlock Text="RegionFirstView" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+    </Grid>
+</UserControl>
